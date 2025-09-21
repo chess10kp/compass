@@ -71,7 +71,7 @@ for d_line in data_lines:
         d_line_list.append("0")
     else:
         continue
-    if len(d_line_list) != 30:
+    if len(d_line_list) != 18:
         continue
     for i, item in enumerate(d_line_list):
         if item == " ":
